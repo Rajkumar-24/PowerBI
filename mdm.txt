@@ -1,0 +1,92 @@
+ Material MDM
+M01 create m
+M02 change
+M03 display 
+M04 display material change documents 
+Mm06 flag material for deletion 
+Mm 50 list extendable material 
+Mm 60 material list 
+
+
+Pricing 
+Vk11 create
+Vk12 change 
+Vk13 display 
+Vk31 create promotion
+Vk32 change promotion 
+Vk33  display problem 
+
+
+Customer 
+Xdo1 create customer  central 
+Xd02 change 
+Xd03 display 
+Vdo1 create  sales
+Vdo2 change 
+Vdo3 display 
+Fdo1 create accounting 
+Fdo2 change
+Fdo3. Display 
+
+
+Vendor 
+Xko1  create vendor  Central 
+Xk02 change 
+Xk03 display 
+Mk01 create purchasing 
+Mk02 change
+Mk03 display 
+Fk01 create accounting 
+Fk02 change 
+Fk03  display
+
+
+
+
+CUSTOMER MASTER
+The customer master data holds the info about business transaction and how trans. are recorded and executed by the system.A centralized masters info about customers that an organization uses to do business with them.ex-customer billing address, customer number etc.
+TOOLS-SAP MGP 400
+
+Request-
+create(new customer)(onboard),change(change)
+
+customer request-
+sold to - A person/organization to whom the services/goods are provided
+
+ship to - A destinaton where the product/service isshipped
+
+payer   - The person/organization that gives money for the services/ goods recieved
+
+bill to= the person / organization under whose name bill is made for the services/goods
+
+VALIDATION STEPS:
+EMAILS (.org.com,.edu)
+REQUEST TYPE,
+THE VENDER NAME (ex-stericycle-boll_To)
+right format(like no room no,department no,floor,no period ,comma in business name)
+valid address
+counrty,city check
+language
+tax jurisdiction
+fax no
+
+PRICING MASTER
+register prices for article (given by supliers itself)
+Tools:
+M3 access(prod+supp)
+ modules-
+	PPS040 Logarith-creating erp link of supp. and product code
+	PPS100 BUDGET -defining standard cost per product for finance department
+	PPS100FRS - linking p-code and supplier price for placing thed order
+Injection tool
+
+ROUTINE
+Once a week Buyer will drop all files on a dedicated sharepoint
+Weekly feedback and random testing expected from Genpact
+Process review / improvement on a monthly base
+
+MATERIAL MASTER
+creating master record for registring raw items of the product/services provided by the organisation
+
+PRODUCT MASTER
+creating master record for registering products
